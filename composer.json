@@ -1,0 +1,56 @@
+{
+    "name": "frederickosei/laravel-country-region",
+    "description": "Static Eloquent models for countries and first-level administrative regions.",
+    "keywords": [
+        "laravel",
+        "country",
+        "countries",
+        "region",
+        "regions",
+        "geography",
+        "iso-3166",
+        "iso-3166-2",
+        "eloquent",
+        "fixtures"
+    ],
+    "homepage": "https://github.com/frederickosei/laravel-country-region",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Frederick Osei"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "calebporzio/sushi": "^2.5",
+        "illuminate/database": "*",
+        "illuminate/validation": "*"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^8.0|^9.0|^10.0|^11.0",
+        "phpunit/phpunit": "^10.0|^11.0|^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "FrederickOsei\\LaravelCountryRegion\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "FrederickOsei\\LaravelCountryRegion\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "FrederickOsei\\LaravelCountryRegion\\LaravelCountryRegionServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "validate-data": "php scripts/validate-data.php"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
