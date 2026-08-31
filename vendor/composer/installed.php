@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'frederickosei/laravel-country-region',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => null,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '27d29ea22dd1187a77c26abb30a06d7ceb921ebd',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -122,9 +122,9 @@
             'dev_requirement' => true,
         ),
         'frederickosei/laravel-country-region' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => null,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '27d29ea22dd1187a77c26abb30a06d7ceb921ebd',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
